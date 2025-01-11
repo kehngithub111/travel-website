@@ -20,7 +20,7 @@ const Flights = () => {
         <BannerForm />
       </div>
 
-      <div className='mt-[17rem] mb-[2rem] px-2 max-[639px]:mt-[23rem]'>
+      <div className='mt-[17rem] mb-[2rem] px-2 max-[639px]:mt-[25rem]'>
         <div className='max-w-[1500px] w-full mx-auto'>
           <header className="flex items-center justify-between py-[1rem] max-sm:py-4">
             <div className="flex flex-col gap-4 max-sm:gap-2 max-sm:w-full">

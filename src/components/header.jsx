@@ -52,8 +52,8 @@ const Header = () => {
           </div>
 
           <div className="flex items-center gap-1 max-[768px]:w-[95%] max-[768px]:flex-col max-[768px]:border-t max-[768px]:pt-3 max-[768px]:border-gray-400">
-            <button className={`${currentHome ? 'text-[#ffffff]' : 'text-[#112211] max-md:text-[#ffffff]'} h-[40px] rounded-lg w-[90px] font-medium text-sm max-[768px]:border max-[768px]:border-gray-400 max-[768px]:w-full`}>Login</button>
-            <button className={`${currentHome ? 'bg-[#ffffff]' : 'bg-[#112211] text-[#ffffff] max-md:bg-[#ffffff] max-md:text-[#112211]'} h-[40px] border rounded-lg w-[90px] font-medium text-sm max-[768px]:w-full`}>Sign Up</button>
+            <NavLink to="/login" className={`${currentHome ? 'text-[#ffffff]' : 'text-[#112211] max-md:text-[#ffffff]'} h-[40px] flex items-center justify-center rounded-lg w-[90px] font-medium text-sm max-[768px]:border max-[768px]:border-gray-400 max-[768px]:w-full`}>Login</NavLink>
+            <NavLink to="/register" className={`${currentHome ? 'bg-[#ffffff]' : 'bg-[#112211] text-[#ffffff] max-md:bg-[#ffffff]  max-md:text-[#112211]'} h-[40px] flex items-center justify-center border rounded-lg w-[90px] font-medium text-sm max-[768px]:w-full`}>Sign Up</NavLink>
           </div>
         </div>
 

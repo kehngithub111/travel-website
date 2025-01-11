@@ -23,7 +23,7 @@ const Footer = () => {
                 </div>
 
                 <div className="mt-5 grid grid-cols-[repeat(auto-fit,minmax(200px,1fr))] gap-4 max-sm:grid-cols-2">
-                    <div className="flex flex-col">
+                    <div className="flex flex-col max-sm:col-span-2 max-sm:items-center max-sm:justify-center">
                         <div className="h-[40px] relative w-[120px]">
                             <img className="w-full h-full absolute -top-0 left-0" src={Frame5Logo} alt="" />
                         </div>
