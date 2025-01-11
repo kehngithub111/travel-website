@@ -40,13 +40,13 @@ const BannerForm = () => {
       </div>
 
       <div className='flex items-center justify-end max-sm:px-4'>
-        <button className='px-4 flex gap-2 items-center'>
+        <button className='px-4 flex gap-2 items-center max-sm:gap-1.5 max-sm:px-2.5'>
           <i className='fa-solid fa-plus max-sm:text-sm'></i>
-          <span className='text-sm max-sm:text-[13px]'>Add Promo Code</span>
+          <span className='text-sm max-sm:text-[12px]'>Add Promo Code</span>
         </button>
-        <button className='bg-[#8dd3bb] h-[40px] px-4 rounded-lg flex gap-2 items-center'>
+        <button className='bg-[#8dd3bb] h-[40px] px-4 rounded-lg flex gap-2 items-center max-sm:gap-1.5 max-sm:px-2.5'>
           <i className="fa-solid fa-paper-plane max-sm:text-sm"></i>
-          <span className='text-sm max-sm:text-[13px]'>Show Flights</span>
+          <span className='text-sm max-sm:text-[12px]'>Show Flights</span>
         </button>
       </div>
     </div>

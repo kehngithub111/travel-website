@@ -22,13 +22,13 @@ const Flights = () => {
 
       <div className='mt-[17rem] mb-[2rem] px-2 max-[639px]:mt-[23rem]'>
         <div className='max-w-[1500px] w-full mx-auto'>
-          <header className="flex items-center justify-between py-[1rem] max-sm:py-0">
-            <div className="flex flex-col gap-4 max-sm:gap-2 max-sm:w-[60%]">
+          <header className="flex items-center justify-between py-[1rem] max-sm:py-4">
+            <div className="flex flex-col gap-4 max-sm:gap-2 max-sm:w-[60%] max-[320px]:w-full">
               <h1 className="text-4xl font-medium max-sm:text-xl">Let's go places together</h1>
               <p className="font-light max-sm:text-[13px]">Discover the latest offers and news and start planning your trip with us.</p>
             </div>
 
-            <button className="border border-[#8dd3bb] h-[40px] px-4 rounded-lg max-sm:h-[35px]">
+            <button className="border border-[#8dd3bb] h-[40px] px-4 rounded-lg max-sm:h-[35px] max-[320px]:hidden">
               <span className="text-sm text-[#8dd3bb] max-sm:text-[13px]">See All</span>
             </button>
           </header>
@@ -40,40 +40,44 @@ const Flights = () => {
 
       <div className='max-w-[1500px] w-full mx-auto px-1.5 max-sm:mt-[7rem]'>
         <header className="flex items-center justify-between py-[1rem] max-sm:py-0">
-          <div className="flex flex-col gap-4 max-sm:gap-2 max-sm:w-[60%]">
+          <div className="flex flex-col gap-4 max-sm:gap-2 max-sm:w-[60%] max-[320px]:w-full">
             <h1 className="text-4xl font-medium max-sm:text-xl">Let's go places together</h1>
             <p className="font-light max-sm:text-[13px]">Discover the latest offers and news and start planning your trip with us.</p>
           </div>
 
-          <button className="border border-[#8dd3bb] h-[40px] px-4 rounded-lg max-sm:h-[35px]">
+          <button className="border border-[#8dd3bb] h-[40px] px-4 rounded-lg max-sm:h-[35px] max-[320px]:hidden">
             <span className="text-sm text-[#8dd3bb] max-sm:text-[13px]">See All</span>
           </button>
         </header>
 
-        <div className='grid grid-cols-4 my-4 gap-4 max-sm:grid-cols-2 max-sm:gap-1.5'>
+        <div className='grid grid-cols-4 my-4 gap-4 max-sm:grid-cols-2 max-sm:gap-1.5 max-[320px]:grid-cols-1'>
           {flightF2CardData.map((item, index) => (
             <FlightF2Card key={index} data={item} />
           ))}
         </div>
+
+        <button className="border border-[#8dd3bb] hidden h-[40px] px-4 rounded-lg max-sm:h-[35px] max-[320px]:block max-[320px]:w-full">
+          <span className="text-sm text-[#8dd3bb] max-sm:text-[13px]">See All</span>
+        </button>
       </div>
 
       <div className='mt-[10rem] px-1.5'>
         <div className='max-w-[1500px] w-full mx-auto'>
-          <header className="flex items-center justify-between py-[1rem] max-sm:py-0">
-            <div className="flex flex-col gap-4 max-sm:gap-2 max-sm:w-[75%]">
+          <header className="flex items-center justify-between py-[1rem] max-sm:py-0 ">
+            <div className="flex flex-col gap-4 max-sm:gap-2 max-sm:w-[75%] max-[320px]:w-full">
               <h1 className="text-4xl font-medium max-sm:text-xl">Fall into travel</h1>
               <p className="font-light max-sm:text-[13px]">Going somewhere to celebrate this season? Whether you’re going home or somewhere to roam, we’ve got the travel tools to get you to your destination.</p>
             </div>
 
-            <button className="border border-[#8dd3bb] h-[40px] px-4 rounded-lg max-sm:h-[35px]">
+            <button className="border border-[#8dd3bb] h-[40px] px-4 rounded-lg max-sm:h-[35px] max-[320px]:hidden">
               <span className="text-sm text-[#8dd3bb] max-sm:text-[13px]">See All</span>
             </button>
           </header>
 
           <div className='grid grid-cols-4 my-4 gap-4 max-sm:grid-cols-2 max-sm:gap-2'>
-            <div className='bg-[#8dd3bb] gap-10 rounded-[16px] col-span-2 row-span-2 p-6 flex justify-between flex-col'>
+            <div className='bg-[#8dd3bb] gap-10 rounded-[16px] col-span-2 row-span-2 p-6 flex justify-between flex-col max-sm:p-3'>
               <div className='flex flex-col'>
-                <div className='flex items-start justify-between mb-4 max-sm:mb-2'>
+                <div className='flex items-start justify-between mb-4 max-sm:mb-3'>
                   <h1 className='text-4xl font-bold max-sm:text-xl'>Backpacking <br /> Sri Lanka</h1>
                   <div className='flex flex-col items-center bg-[#ffffff] rounded-lg px-6 py-3 max-sm:px-4 max-sm:py-2'>
                     <span className='text-sm max-sm:text-[13px]'>From</span>
@@ -91,6 +95,10 @@ const Flights = () => {
             <FlightF3Card image={FlightF3Image3} />
             <FlightF3Card image={FlightF3Image4} />
           </div>
+
+          <button className="border border-[#8dd3bb] hidden h-[40px] px-4 rounded-lg max-sm:h-[35px] max-[320px]:block max-[320px]:w-full">
+            <span className="text-sm text-[#8dd3bb] max-sm:text-[13px]">See All</span>
+          </button>
         </div>
       </div>
     </>
