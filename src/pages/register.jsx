@@ -5,8 +5,8 @@ import { NavLink } from 'react-router-dom'
 const RegisterPage = () => {
   return (
     <>
-      <div className='flex h-[100dvh] justify-between flex-row-reverse'>
-        <div className='w-1/2 p-[4rem] mb-5 flex items-center justify-center relative max-[768px]:w-full max-sm:px-[1rem] max-sm:py-[1.5rem]'>
+      <div className='flex h-[100dvh] pb-[1rem] justify-between flex-row-reverse'>
+        <div className='w-1/2 p-[4rem] flex items-center justify-center relative max-[768px]:w-full max-sm:px-[1rem] max-sm:py-[1.5rem]'>
           <form className='max-w-[600px] w-full mx-auto h-full'>
             <NavLink to="/" className="h-fit w-fit">
               <img className='mb-[3rem] object-cover max-sm:mb-[2rem]' src={LogoBlack} alt="" />

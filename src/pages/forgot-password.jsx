@@ -14,7 +14,7 @@ const ForgotPassword = () => {
 
             <div className='flex flex-col gap-4 max-sm:gap-1'>
               <NavLink to="/login" className="flex items-center gap-2 mb-[1.5rem]">
-                <i class="fa-regular fa-chevron-left max-sm:text-sm"></i>
+                <i className="fa-regular fa-chevron-left max-sm:text-sm"></i>
                 <span className='text-sm'>Back to login</span>
               </NavLink>
               <h1 className='text-4xl font-medium max-sm:text-2xl'>Forgot Password?</h1>
