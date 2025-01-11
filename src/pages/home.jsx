@@ -6,7 +6,7 @@ function HomePage() {
 
   return (
     <>
-      <div className='min-h-[80vh] relative flex items-center justify-center max-[768px]:min-h-[75vh] max-sm:min-h-[65vh]' id="bannerImage">
+      <div className='min-h-[80vh] relative flex items-center justify-center' id="bannerImage">
         <div className="flex flex-col items-center gap-4 w-[60%] max-[768px]:w-full max-[768px]:px-2">
           <h1 className="text-[#ffffff] text-center text-2xl max-[768px]:text-xl">Live & Travel</h1>
           <h1 className="text-[#ffffff] text-center text-6xl font-extrabold max-[768px]:text-4xl">Explore More, Worry Less – Your Journey Starts Here!</h1>
