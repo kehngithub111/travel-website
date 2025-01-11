@@ -6,10 +6,10 @@ const LoginPage = () => {
     return (
         <>
             <div className='flex h-screen justify-between'>
-                <div className='w-1/2 p-[4rem] flex items-center justify-center relative max-[768px]:w-full max-sm:px-[1rem]'>
+                <div className='w-1/2 p-[4rem] flex items-center justify-center relative max-[768px]:w-full max-sm:px-[1rem] max-sm:py-[1.5rem]'>
                     <form className='max-w-[500px] w-full mx-auto h-full'>
                         <NavLink to="/" >
-                            <img className='mb-[5rem] object-cover' src={LogoBlack} alt="" />
+                            <img className='mb-[5rem] object-cover max-sm:mb-[2rem]' src={LogoBlack} alt="" />
                         </NavLink>
 
                         <div className='flex flex-col gap-4 max-sm:gap-1'>
