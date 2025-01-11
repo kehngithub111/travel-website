@@ -12,12 +12,12 @@ const VerifyPassword = () => {
               <img className='absolute top-[4rem] left-1/2 transform -translate-x-1/2' src={LogoBlack} alt="" />
             </NavLink>
 
-            <div className='flex flex-col gap-4'>
-              <NavLink to="/login" className="flex items-center gap-2">
-                <i class="fa-regular fa-chevron-left"></i>
+            <div className='flex flex-col gap-4 max-sm:gap-1'>
+              <NavLink to="/login" className="flex items-center gap-2 mb-[1.5rem]">
+                <i class="fa-regular fa-chevron-left max-sm:text-sm"></i>
                 <span className='text-sm'>Back to login</span>
               </NavLink>
-              <h1 className='text-4xl font-medium'>Verify Code</h1>
+              <h1 className='text-4xl font-medium max-sm:text-2xl'>Verify Code</h1>
               <p className='text-sm text-gray-500'>An authentication code has been sent to your email.</p>
             </div>
 

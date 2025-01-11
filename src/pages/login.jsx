@@ -7,9 +7,9 @@ const LoginPage = () => {
         <>
             <div className='flex h-screen justify-between'>
                 <div className='w-1/2 p-[4rem] flex items-center justify-center relative max-[768px]:w-full max-sm:px-[1rem]'>
-                    <form className='max-w-[500px] w-full mx-auto'>
-                        <NavLink to="/">
-                            <img className='absolute top-[4rem] left-1/2 transform -translate-x-1/2' src={LogoBlack} alt="" />
+                    <form className='max-w-[500px] w-full mx-auto h-full'>
+                        <NavLink to="/" >
+                            <img className='mb-[5rem] object-cover' src={LogoBlack} alt="" />
                         </NavLink>
 
                         <div className='flex flex-col gap-4 max-sm:gap-1'>

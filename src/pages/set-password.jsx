@@ -12,8 +12,12 @@ const SetPassword = () => {
               <img className='absolute top-[4rem] left-1/2 transform -translate-x-1/2' src={LogoBlack} alt="" />
             </NavLink>
 
-            <div className='flex flex-col gap-4'>
-              <h1 className='text-4xl font-medium'>Set a password</h1>
+            <div className='flex flex-col gap-4 max-sm:gap-1'>
+              <NavLink to="/login" className="flex items-center gap-2 mb-[1.5rem]">
+                <i class="fa-regular fa-chevron-left max-sm:text-sm"></i>
+                <span className='text-sm'>Back to login</span>
+              </NavLink>
+              <h1 className='text-4xl font-medium max-sm:text-2xl'>Set a password</h1>
               <p className='text-sm text-gray-500'>Your previous password has been reseted. Please set a new password for your account..</p>
             </div>
 

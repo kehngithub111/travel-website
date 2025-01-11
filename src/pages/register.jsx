@@ -5,11 +5,11 @@ import { NavLink } from 'react-router-dom'
 const RegisterPage = () => {
   return (
     <>
-      <div className='flex h-screen justify-between flex-row-reverse'>
-        <div className='w-1/2 p-[4rem] flex items-center justify-center relative max-[768px]:w-full max-sm:px-[1rem]'>
-          <form className='max-w-[600px] w-full mx-auto'>
-            <NavLink to="/">
-              <img className='absolute top-[4rem] left-1/2 transform -translate-x-1/2 max-sm:top-[2rem]' src={LogoBlack} alt="" />
+      <div className='flex h-[100dvh] justify-between flex-row-reverse'>
+        <div className='w-1/2 p-[4rem] mb-5 flex items-center justify-center relative max-[768px]:w-full max-sm:px-[1rem] max-sm:py-[1.5rem]'>
+          <form className='max-w-[600px] w-full mx-auto h-full'>
+            <NavLink to="/" className="h-fit w-fit">
+              <img className='mb-[3rem] object-cover max-sm:mb-[2rem]' src={LogoBlack} alt="" />
             </NavLink>
 
             <div className='flex flex-col gap-4 max-sm:gap-1'>
@@ -19,28 +19,28 @@ const RegisterPage = () => {
 
             <div className='mt-[2rem] mb-5 grid grid-cols-2 gap-4 max-sm:mt-[1rem] max-sm:gap-2'>
               <div className='border border-gray-500 rounded-md relative h-[50px] mt-3 max-sm:h-[45px]'>
-                <label htmlFor="fromTo" className='absolute left-2 -top-[11px] px-1.5 text-sm bg-[#ffffff] max-sm:text-[13px] text-gray-500'>First Name</label>
-                <input type="text" className='h-full w-full rounded-md outline-none pl-3 pr-[30px]' />
+                <label htmlFor="fromTo" className='absolute left-2 -top-[11px] px-1.5 text-sm bg-[#fafbfc] max-sm:text-[13px] text-gray-500'>First Name</label>
+                <input type="text" className='h-full w-full rounded-md outline-none bg-[#fafbfc] pl-3 pr-[30px]' />
               </div>
               <div className='border border-gray-500 rounded-md relative h-[50px] mt-3 max-sm:h-[45px]'>
-                <label htmlFor="fromTo" className='absolute left-2 -top-[11px] px-1.5 text-sm bg-[#ffffff] max-sm:text-[13px] text-gray-500'>Last Name</label>
-                <input type="text" className='h-full w-full rounded-md outline-none pl-3 pr-[30px]' />
+                <label htmlFor="fromTo" className='absolute left-2 -top-[11px] px-1.5 text-sm bg-[#fafbfc] max-sm:text-[13px] text-gray-500'>Last Name</label>
+                <input type="text" className='h-full w-full rounded-md outline-none bg-[#fafbfc] pl-3 pr-[30px]' />
               </div>
               <div className='border border-gray-500 rounded-md relative h-[50px] mt-3 max-sm:h-[45px]'>
-                <label htmlFor="fromTo" className='absolute left-2 -top-[11px] px-1.5 text-sm bg-[#ffffff] max-sm:text-[13px] text-gray-500'>Email</label>
-                <input type="text" className='h-full w-full rounded-md outline-none pl-3 pr-[30px]' />
+                <label htmlFor="fromTo" className='absolute left-2 -top-[11px] px-1.5 text-sm bg-[#fafbfc] max-sm:text-[13px] text-gray-500'>Email</label>
+                <input type="text" className='h-full w-full rounded-md outline-none bg-[#fafbfc] pl-3 pr-[30px]' />
               </div>
               <div className='border border-gray-500 rounded-md relative h-[50px] mt-3 max-sm:h-[45px]'>
-                <label htmlFor="fromTo" className='absolute left-2 -top-[11px] px-1.5 text-sm bg-[#ffffff] max-sm:text-[13px] text-gray-500'>Phone Number</label>
-                <input type="text" className='h-full w-full rounded-md outline-none pl-3 pr-[30px]' />
+                <label htmlFor="fromTo" className='absolute left-2 -top-[11px] px-1.5 text-sm bg-[#fafbfc] max-sm:text-[13px] text-gray-500'>Phone Number</label>
+                <input type="text" className='h-full w-full rounded-md outline-none bg-[#fafbfc] pl-3 pr-[30px]' />
               </div>
               <div className='border border-gray-500 rounded-md relative h-[50px] mt-3 max-sm:h-[45px] col-span-2'>
-                <label htmlFor="fromTo" className='absolute left-2 -top-[11px] px-1.5 text-sm bg-[#ffffff] max-sm:text-[13px] text-gray-500'>Password</label>
-                <input type="password" className='h-full w-full rounded-md outline-none pl-3 pr-[30px]' />
+                <label htmlFor="fromTo" className='absolute left-2 -top-[11px] px-1.5 text-sm bg-[#fafbfc] max-sm:text-[13px] text-gray-500'>Password</label>
+                <input type="password" className='h-full w-full rounded-md outline-none bg-[#fafbfc] pl-3 pr-[30px]' />
               </div>
               <div className='border border-gray-500 rounded-md relative h-[50px] mt-3 max-sm:h-[45px] col-span-2'>
-                <label htmlFor="fromTo" className='absolute left-2 -top-[11px] px-1.5 text-sm bg-[#ffffff] max-sm:text-[13px] text-gray-500'>Confirm Password</label>
-                <input type="text" className='h-full w-full rounded-md outline-none pl-3 pr-[30px]' />
+                <label htmlFor="fromTo" className='absolute left-2 -top-[11px] px-1.5 text-sm bg-[#fafbfc] max-sm:text-[13px] text-gray-500'>Confirm Password</label>
+                <input type="text" className='h-full w-full rounded-md outline-none bg-[#fafbfc] pl-3 pr-[30px]' />
               </div>
             </div>
 
