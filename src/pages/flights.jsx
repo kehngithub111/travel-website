@@ -23,12 +23,12 @@ const Flights = () => {
       <div className='mt-[17rem] mb-[2rem] px-2 max-[639px]:mt-[23rem]'>
         <div className='max-w-[1500px] w-full mx-auto'>
           <header className="flex items-center justify-between py-[1rem] max-sm:py-4">
-            <div className="flex flex-col gap-4 max-sm:gap-2 max-sm:w-[60%] max-[320px]:w-full">
+            <div className="flex flex-col gap-4 max-sm:gap-2 max-sm:w-full">
               <h1 className="text-4xl font-medium max-sm:text-xl">Let's go places together</h1>
               <p className="font-light max-sm:text-[13px]">Discover the latest offers and news and start planning your trip with us.</p>
             </div>
 
-            <button className="border border-[#8dd3bb] h-[40px] px-4 rounded-lg max-sm:h-[35px] max-[320px]:hidden">
+            <button className="border border-[#8dd3bb] h-[40px] px-4 rounded-lg max-sm:hidden">
               <span className="text-sm text-[#8dd3bb] max-sm:text-[13px]">See All</span>
             </button>
           </header>
@@ -40,23 +40,23 @@ const Flights = () => {
 
       <div className='max-w-[1500px] w-full mx-auto px-1.5 max-sm:mt-[7rem]'>
         <header className="flex items-center justify-between py-[1rem] max-sm:py-0">
-          <div className="flex flex-col gap-4 max-sm:gap-2 max-sm:w-[60%] max-[320px]:w-full">
+          <div className="flex flex-col gap-4 max-sm:gap-2 max-sm:w-full">
             <h1 className="text-4xl font-medium max-sm:text-xl">Let's go places together</h1>
             <p className="font-light max-sm:text-[13px]">Discover the latest offers and news and start planning your trip with us.</p>
           </div>
 
-          <button className="border border-[#8dd3bb] h-[40px] px-4 rounded-lg max-sm:h-[35px] max-[320px]:hidden">
+          <button className="border border-[#8dd3bb] h-[40px] px-4 rounded-lg max-sm:h-[35px] max-sm:hidden">
             <span className="text-sm text-[#8dd3bb] max-sm:text-[13px]">See All</span>
           </button>
         </header>
 
-        <div className='grid grid-cols-4 my-4 gap-4 max-sm:grid-cols-2 max-sm:gap-1.5 max-[320px]:grid-cols-1'>
+        <div className='grid grid-cols-4 my-4 gap-4 max-sm:gap-1.5 max-sm:grid-cols-1'>
           {flightF2CardData.map((item, index) => (
             <FlightF2Card key={index} data={item} />
           ))}
         </div>
 
-        <button className="border border-[#8dd3bb] hidden h-[40px] px-4 rounded-lg max-sm:h-[35px] max-[320px]:block max-[320px]:w-full">
+        <button className="border border-[#8dd3bb] hidden h-[40px] px-4 rounded-lg max-sm:h-[35px] max-sm:block max-sm:w-full">
           <span className="text-sm text-[#8dd3bb] max-sm:text-[13px]">See All</span>
         </button>
       </div>
@@ -64,12 +64,12 @@ const Flights = () => {
       <div className='mt-[10rem] px-1.5'>
         <div className='max-w-[1500px] w-full mx-auto'>
           <header className="flex items-center justify-between py-[1rem] max-sm:py-0 ">
-            <div className="flex flex-col gap-4 max-sm:gap-2 max-sm:w-[75%] max-[320px]:w-full">
+            <div className="flex flex-col gap-4 max-sm:gap-2 max-sm:w-full">
               <h1 className="text-4xl font-medium max-sm:text-xl">Fall into travel</h1>
               <p className="font-light max-sm:text-[13px]">Going somewhere to celebrate this season? Whether you’re going home or somewhere to roam, we’ve got the travel tools to get you to your destination.</p>
             </div>
 
-            <button className="border border-[#8dd3bb] h-[40px] px-4 rounded-lg max-sm:h-[35px] max-[320px]:hidden">
+            <button className="border border-[#8dd3bb] h-[40px] px-4 rounded-lg max-sm:hidden">
               <span className="text-sm text-[#8dd3bb] max-sm:text-[13px]">See All</span>
             </button>
           </header>
@@ -96,7 +96,7 @@ const Flights = () => {
             <FlightF3Card image={FlightF3Image4} />
           </div>
 
-          <button className="border border-[#8dd3bb] hidden h-[40px] px-4 rounded-lg max-sm:h-[35px] max-[320px]:block max-[320px]:w-full">
+          <button className="border border-[#8dd3bb] hidden h-[40px] px-4 rounded-lg max-sm:h-[35px] max-sm:block max-sm:w-full">
             <span className="text-sm text-[#8dd3bb] max-sm:text-[13px]">See All</span>
           </button>
         </div>
