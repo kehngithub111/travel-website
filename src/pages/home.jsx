@@ -6,11 +6,11 @@ function HomePage() {
 
   return (
     <>
-      <div className='min-h-[80vh] relative flex items-center justify-center max-[768px]:min-h-[70vh] max-sm:min-h-[60vh]' id="bannerImage">
+      <div className='min-h-[80vh] relative flex items-center justify-center max-[768px]:min-h-[75vh] max-sm:min-h-[65vh]' id="bannerImage">
         <div className="flex flex-col items-center gap-4 w-[60%] max-[768px]:w-full max-[768px]:px-2">
           <h1 className="text-[#ffffff] text-center text-2xl max-[768px]:text-xl">Live & Travel</h1>
           <h1 className="text-[#ffffff] text-center text-6xl font-extrabold max-[768px]:text-4xl">Explore More, Worry Less – Your Journey Starts Here!</h1>
-          <p className="text-[#ffffff] text-center w-[80%] max-[768px]:text-sm"> we offer tailored recommendations, unbeatable deals, and expert guidance to make your travel dreams come true. Let's make every trip unforgettable! 🌍✈️</p>
+          <p className="text-[#ffffff] text-center w-[80%] max-[768px]:text-sm max-sm:w-[95%]"> we offer tailored recommendations, unbeatable deals, and expert guidance to make your travel dreams come true. Let's make every trip unforgettable! 🌍✈️</p>
         </div>
 
         <BannerForm />
