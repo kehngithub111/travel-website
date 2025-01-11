@@ -9,7 +9,7 @@ const Flights = () => {
 
   return (
     <>
-      <div className='mt-[4rem] min-h-[80vh] relative flex items-center justify-center max-[768px]:min-h-[70vh] max-sm:min-h-[50vh]' id='banner2Image'>
+      <div className='mt-[4rem] min-h-[80vh] relative flex items-center justify-center' id='banner2Image'>
         <div className='max-w-[1500px] w-full mx-auto px-2 max-[768px]:flex max-[768px]:flex-col max-[768px]:items-center max-[768px]:justify-center'>
           <div className=''>
             <h1 className='text-[#ffffff] text-6xl font-bold text-shadow mb-4 leading-[70px] max-[768px]:text-4xl max-[768px]:text-center'>Make your travel wishlist, <br /> we'll do the rest</h1>

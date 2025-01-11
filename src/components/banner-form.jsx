@@ -6,7 +6,7 @@ const BannerForm = () => {
   const currentHome = location.pathname === "/";
 
   return (
-    <div className={`${currentHome ? 'max-[768px]:top-[55vh]' : 'max-[768px]:top-[43vh]'} bg-[#ffffff] max-w-[1500px] w-[99%] absolute top-[630px] left-1/2 transform -translate-x-1/2 p-4 rounded-xl shadow-lg max-sm:px-0 max-sm:py-3`}>
+    <div className="max-[768px]:top-[75vh] bg-[#ffffff] max-w-[1500px] w-[99%] absolute top-[630px] left-1/2 transform -translate-x-1/2 p-4 rounded-xl shadow-lg max-sm:px-0 max-sm:py-3">
       <header className='flex items-center'>
         <button className='flex items-center gap-2 border-r px-6 py-3'>
           <i className="fa-solid fa-plane text-xl max-sm:text-sm"></i>
